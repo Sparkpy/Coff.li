@@ -1,0 +1,16 @@
+.card > img {
+    padding: 32px;
+}
+
+.col-sm {
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
