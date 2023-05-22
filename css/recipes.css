@@ -1,0 +1,77 @@
+.img-fluid {
+    margin-bottom: 32px;
+}
+
+h3 {
+    position: absolute;
+    text-shadow: 2px 2px 2px black;
+    z-index: 2;
+    color:white;
+    -webkit-text-stroke: 0.05vw black;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -100%);
+    font-size: 3vw;
+    user-select: none;
+}
+
+.content:hover {
+    transition: 0.25s;
+    filter: grayscale(0%);
+}
+
+.content {
+    transition: 0.25s;
+    filter: grayscale(45%);
+}
+
+.recipes {
+    padding:32px;
+}
+
+.recipe {
+    color: #ffffff;
+    text-shadow: 2px 2px 2px black;
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    font-size: 1.1vw;
+    z-index: 2;
+    top: -2%;
+    left: 10%;
+    text-align: left;
+    list-style-type: decimal;
+    user-select: none;
+}
+
+@media only screen and (max-width: 1112px) {
+    .recipe {
+        font-size: 1vw
+    }
+}
+
+@media only screen and (max-width: 838px) {
+    .recipe {
+        font-size: 0.9vw
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    h3 {
+       font-size: 10vw;
+       -webkit-text-stroke: 0.17vw black;
+    }
+    .recipe {
+        font-size: 4vw
+    }
+}
+
+img {
+    transition: 0.25s ease-out;
+}
+.blur {
+    filter: blur(3px);
+}
+.hidden {
+    display:none;
+}
